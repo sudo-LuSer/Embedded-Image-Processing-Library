@@ -105,5 +105,11 @@ gcc -o graphics_program main.c bitmaplib.c vectlib.c -lm
 
 ---
 
+## 📚 Compiling & Ruuning 
+- Make to run the main files 
+- read the make file to see other make options
+
+---
+
 ## 📄 License
 Educational use only. Free to modify and extend.
