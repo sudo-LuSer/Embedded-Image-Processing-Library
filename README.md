@@ -1,11 +1,11 @@
-# 🖼️ Bitmap & Vector Graphics Library in C
+#  Bitmap & Vector Graphics Library in C
 
 A lightweight C project demonstrating **bitmap image manipulation** and **vector-based drawing**, built from scratch for educational purposes.  
 Ideal for learning low-level graphics, memory management, and basic computer graphics concepts.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Bitmap Library (`bitmaplib`)
 - Image creation with custom dimensions
@@ -23,7 +23,7 @@ Ideal for learning low-level graphics, memory management, and basic computer gra
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ├── bitmaplib.h  
 ├── bitmaplib.c  
@@ -34,7 +34,7 @@ Ideal for learning low-level graphics, memory management, and basic computer gra
 
 ---
 
-## 🔧 Usage Examples
+##  Usage Examples
 
 ### Bitmap Example
 
@@ -60,7 +60,7 @@ free_vector(v);
 
 ---
 
-## 📊 Supported Formats
+##  Supported Formats
 
 ### Image
 - PPM (P6)
@@ -74,7 +74,7 @@ x1 y1 x2 y2
 
 ---
 
-## 🛠️ Build
+##  Build
 
 ```bash
 gcc -o graphics_program main.c bitmaplib.c vectlib.c -lm
@@ -83,14 +83,13 @@ gcc -o graphics_program main.c bitmaplib.c vectlib.c -lm
 
 ---
 
-## ⚠️ Known Issues
-- transpose() function is buggy
+##  Known Issues
 - Limited error handling
 - Not optimized for large images
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - More image formats (PNG, JPEG)
 - Additional drawing primitives
 - Anti-aliasing
@@ -99,15 +98,18 @@ gcc -o graphics_program main.c bitmaplib.c vectlib.c -lm
 
 ---
 
-## 📚 Dependencies
+##  Dependencies
 - Standard C library
 - GCC / C99 compiler
-
+- CMake
 ---
 
-## 📚 Compiling & Ruuning 
-- Make to run the main files 
-- read the make file to see other make options
+## Compiling & Ruuning 
+```
+mkdir build && cd build 
+cmake .. 
+./main
+```
 
 ---
 
